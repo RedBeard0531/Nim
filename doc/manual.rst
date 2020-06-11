@@ -3190,7 +3190,7 @@ Table constructor
 A table constructor is syntactic sugar for an array constructor:
 
 .. code-block:: nim
-  {"key1": "value1", "key2", "key3": "value2"}
+  {"key1": "value1", "key2": "value2", "key3": "value3"}
 
   # is the same as:
   [("key1", "value1"), ("key2", "value2"), ("key3", "value2")]
